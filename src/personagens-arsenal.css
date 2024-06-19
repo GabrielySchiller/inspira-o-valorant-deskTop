@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bebas Neue" , sans-serif;
+
+    background-color: rgb(255, 255, 255);;
+    
+    
+}
+
+.cabecalho{
+    background-color: rgb(12, 11, 11);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    width: 100%;
+    letter-spacing: 2px;
+    top: 0;
+    
+}
+
+.logos{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.botao-cabec:hover{ 
+    padding: 25px 15px 20px 15px;
+    border-bottom: 3px solid rgb(133, 35, 35);
+    transition: 0.2s;
+}
+
+
+
+.botao-cabec{
+    padding: 25px 15px 20px 15px;
+  
+}
+
+.btns-cabecalho {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+   
+}
+
+.btns-cabecalho a{
+    color: white;
+}
+
+.btns-c{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.lupa{
+    background-color: rgb(50, 45, 45);
+    transition: 0.5s;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+ 
+.globo{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+.jogue{
+    color: #000000;
+    background: rgb(244,89,60);
+    background: linear-gradient(90deg, rgba(244,89,60,1) 1%, rgba(233,50,73,1) 49%, rgba(243,117,73,1) 100%);
+    padding: 5px 25px;
+    border-radius: 15px;
+    letter-spacing: 2.5px;
+    
+}
+.jogue:hover{
+    box-shadow: 3px 10px rgba(31, 31, 31, 0.72);
+    color: #fff;
+}
+
+
+select{
+    background-color: rgb(12, 11, 11);
+    color: #fff;
+    border: none;
+    width: 80px;
+    font-size: 18px;
+    font-family: "Bebas Neue" , sans-serif;
+    align-items: center;
+    padding: 5px;
+    letter-spacing: 2px;
+    
+}
+
+
+/* AGENTES */
+
+.personagens{
+    background-color: rgb(15, 25, 35);
+}
+
+.titulo-agentes{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    letter-spacing: 3px;
+}
+
+.cartao-agentes{
+    display: flex;
+    gap: 27px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.cartao{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cartao:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+
+}
+
+
+.cartao img{
+    width: 380px;
+    
+}
+
+
+
+.cartao h4{
+    color: #141414;
+    font-size: 27px;
+    background-color: #fff;
+    font-weight: bold;
+    font-family: 'Bebas Neue';
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    padding: 5px 370px 5px 10px;
+
+}
+
+
+
+
+/* ARSENAL */
+
+.arsenal{
+    font-family: 'Bebas Neue';
+    background-color: #ffffff;
+    margin-top: -200px;
+}
+
+.arsenal-caixa{
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.titulo-arsenal{
+    font-size:110px ;
+    color: #0e0e20;
+    margin-left: 60px;
+    margin-bottom: 80px;
+    line-height: 100px;
+    margin-top: 400px;
+}
+
+.cartoes-arsenal{
+    display: flex;
+    gap: 40px;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.cartao-arsenal h3{
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #0e0e20;
+    margin-bottom: 8px;
+}
+
+.cartao-arsenal p{
+    max-width: 370px;
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #2c2c34;
+}
+
+.cartao-arsenal .p-negrito{
+    letter-spacing: 1px;
+    color: #0e0e20;
+
+}
+
+
+
+
+
+
+/* RODAPÉ */
+
+.btns-rodap-1{
+    background-color:rgb(55, 54, 54) ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.primeiros{
+    background-color: rgb(55, 54, 54);
+    border: none;
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 6px;
+}
+
+.primeiros:hover{
+    background-color: #606060;
+    padding: 6px;
+    border-radius: 2.5px;
+}
+
+.caixa-rodap{
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.redes-rodap{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.redes-rodap a{
+    background-color: #424242; 
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.redes-rodap img{
+     
+    width: 30px;
+    padding: 5px;
+   
+}
+   
+
+
+.logos-rodap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copy{
+    color: #787878;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.classificacao-indicativa{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.classificacao-indicativa img{
+    background-color: #282828;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btns-rodap-2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.btns-rodap-2 button{
+    background-color: #111111;
+    border: none;
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 6px;
+}
+
+.btns-rodap-2 button:hover{
+    background-color: #5f5f5f;
+    padding: 6px;
+    border-radius: 2.5px;
+}
+
+

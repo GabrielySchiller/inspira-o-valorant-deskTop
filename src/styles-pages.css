@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.cadastro-login{
+    background-color: rgb(7, 8, 12);
+    color: #fdfdfd;
+}
+
+/* MENU LOGIN OU CADASTRAR */
+
+.prepare-se{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    background-color: rgb(17, 17, 31);
+    padding: 100px;
+    margin: 180px 200px 300px 200px ;
+    border-radius: 2px;    
+    
+}
+
+.cabecalho-prepare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo-prepare-se{
+    letter-spacing: 3px;
+    font-family: "Bebas Neue" , sans-serif;
+    position: relative;
+    margin-top: -15px;
+}
+
+.btn-sair{
+    position: absolute;
+    right: 300px;
+    top: 238px;
+    border: 2px #9e9e9e solid;
+    text-align: center;
+    display: flex;
+}
+
+.btn-sair:hover{
+    border: 2px #a33939 solid;
+    
+}
+
+.btns-prepare{
+    display: flex;
+    gap: 90px;
+}
+
+.cadastro-prepar{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    
+}
+
+.p-prepar{
+    font-family: "Radio Canada Big", sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.btn-cadastro-prepar{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: #121119;
+    background-color: #fdfdfd;
+    padding: 15px 40px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 1px;
+    border: 1px solid transparent;
+    
+
+}
+
+.btn-cadastro-prepar:hover{
+    background-color: #121119;
+    color: #fdfdfd;
+    border: 1px #fdfdfd solid;
+    transition: 1s;
+}
+
+.login-prepare-se{
+    display: flex;
+    flex-direction: column;
+    gap: 17px
+
+}
+
+.btn-login-prepar{
+    color: #fdfdfd;
+    background-color: rgb(222, 73, 73);
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    padding: 15px 70px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 1px;
+    border: 1px solid transparent;
+}
+
+.btn-login-prepar:hover{
+    background-color: #121119;
+    border: 1px #fdfdfd solid;
+    transition: 1s;
+
+}
+
+
+
+
+/* LOGIN */
+
+.login{
+    background-image: url("../img/peakpx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    background-color: #fdfdfd;
+    margin: 80px 580px;
+    padding: 45px 50px;
+    gap: 30px;
+    height: 650px;
+}
+
+.titulo-login{
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+}
+
+.entradas-login{
+    display: flex ;
+    flex-direction: column;
+   
+    gap: 15px;
+}
+
+.entradas-login input{
+    padding: 15px 100px 15px 7px;
+    border: none;
+    background-color: rgba(236, 234, 234, 0.696);
+    font-size: 10px;
+    width: 370px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #343436;
+}
+
+.modos-entr-login{
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.facebook img{
+    background-color: rgb(17, 104, 242);
+    padding: 5px 24px;
+    border-radius: 10px;
+    
+}
+
+.google img {
+    background-color: rgb(249, 250, 251);
+    padding: 5px 24px;
+    border-radius: 10px;
+    border: 0.5px solid #d3d3d3;
+
+}
+
+.apple img{
+    background-color: rgb(12, 12, 12);
+    padding: 5px 24px;
+    border-radius: 10px;
+}
+
+.xbox img{
+    background-color: rgb(7, 117, 25);
+    padding: 5px 24px;
+    border-radius: 10px;
+
+}
+
+.playstation img{
+    background-color: rgb(5, 21, 165);
+    padding: 5px 24px;
+    border-radius: 10px;
+}
+
+
+.manter{
+    display: flex;
+    align-items: center;
+    margin-left: -273px;
+    font-size: 14px;
+    text-align: center;
+    gap: 5px;
+    font-family: "Radio Canada Big", sans-serif;
+    margin-top: -13px;
+
+}
+
+.manter input{
+    width: 22px;
+    border: #121119 solid 2px;
+}
+
+.proximo{
+    border: #9d9da2 solid 2px;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.sup{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.suporte{
+    font-size: 15px;
+    color: #343436;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+
+
+
+/* CADASTRO */
+
+.cadastro{
+    background-image: url("../img/peakpx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixa-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    background-color: #fdfdfd;
+    margin: 80px 560px;
+    padding: 45px 50px;
+    gap: 30px;
+   
+}
+
+
+
+.entradas-cadastro{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;}
+   
+
+.entradas-cadastro input{
+    padding: 15px 140px 15px 7px;
+    border: none;
+    background-color: rgba(236, 234, 234, 0.696);
+    font-size: 10px;
+    width: 370px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #343436;
+    
+}
+
+.sua-data{
+    font-size: 15px;
+    font-family: 'Bebas Neue';
+    color: #18181b;
+    
+}
+
+#data-nasc{
+    font-size: 10px;
+    font-family: 'Bebas Neue';
+    color: #343436;
+}
+
+.condicoes-senha{
+    font-size: 12px;
+    font-family: 'Radio Canada Big';
+    letter-spacing: 1px;
+    max-width: 300px;
+}
+
+.modos-p{
+    font-family: 'Bebas Neue';
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: -25px;
+    margin-top: 20px;
+}
+
+.termos{
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    gap: 10px;
+    font-family: "Radio Canada Big", sans-serif;
+    margin-top: 5px;
+    max-width: 350px;
+
+}
+
+
+.proximo:hover{
+    background-color: #d8d7d7;
+}
+
+
+
+/* GUIA */
+
+.guia{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.caixa-guia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    
+}
+
+.fundo-guia{
+    opacity: 20px;
+    height: 500px;
+    width: 1700px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/fundo-guia.jpg");
+
+}
+
+.img-guia{
+    position: absolute;
+    top: 140px;
+    left: 220px;
+    
+}
+
+.titulos-guia-princip{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 340px;
+    font-family: 'Bebas Neue';
+    z-index:1 ;
+    
+}
+
+.t-guia{
+    font-size: 60px;
+    color: #20202d;
+}
+
+.p-guia{
+    font-size: 18px;
+    font-family: 'Radio Canada Big';
+}
+
+.creditos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'Radio Canada Big';
+    font-size: 13px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.anuncio{
+    color: #d24040;
+}
+
+.linha-guia{
+  color: #6e6e6e;
+}
+
+.infor-guia{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.txts-guia{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    max-width: 900px;
+    text-align: justify;
+    color: #323234;
+    font-family: 'Radio Canada Big';
+    letter-spacing: 1px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.txt-link{
+    color: #121119;
+    text-decoration: underline #d24040;
+   font-weight: 600;
+}
+
+
+
+
+/* FOOTER */
+
+.btns-rodap-1{
+    background-color:rgb(55, 54, 54) ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.primeiros{
+    background-color: rgb(55, 54, 54);
+    border: none;
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 6px;
+}
+
+.primeiros:hover{
+    background-color: #606060;
+    padding: 6px;
+    border-radius: 2.5px;
+}
+
+.caixa-rodap{
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.redes-rodap{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.redes-rodap a{
+    background-color: #424242; 
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.redes-rodap img{
+     
+    width: 30px;
+    padding: 5px;
+   
+}
+   
+
+
+.logos-rodap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copy{
+    color: #787878;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.classificacao-indicativa{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.classificacao-indicativa img{
+    background-color: #282828;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btns-rodap-2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.btns-rodap-2 button{
+    background-color: #111111;
+    border: none;
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 6px;
+}
+
+.btns-rodap-2 button:hover{
+    background-color: #5f5f5f;
+    padding: 6px;
+    border-radius: 2.5px;
+}
+
+
+/* CABEÇALHO */
+
+body{
+    font-family: "Bebas Neue" , sans-serif;
+ } 
+
+.cabecalho{
+    background-color: rgb(12, 11, 11);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    padding: -20px ;
+    font-size: 18px;
+    width: 100%;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 0;
+    
+}
+
+.logos{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+
+.botao-cabec:hover{ 
+    
+    padding: 25px 15px 20px 15px;
+    border-bottom: 3px solid rgb(198, 51, 51);
+    transition: 0.2s;
+}
+
+
+
+.botao-cabec{
+    padding: 25px 15px 20px 15px;
+  
+}
+
+.btns-cabecalho {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+   
+   
+}
+
+.btns-cabecalho a{
+    color: white;
+}
+
+.btns-c{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.lupa{
+    background-color: rgb(50, 45, 45);
+    transition: 0.5s;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+ 
+.globo{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+.jogue{
+    color: #000000;
+    background: rgb(244,89,60);
+    background: linear-gradient(90deg, rgba(244,89,60,1) 1%, rgba(233,50,73,1) 49%, rgba(243,117,73,1) 100%);
+    padding: 5px 25px;
+    border-radius: 15px;
+    letter-spacing: 2.5px;
+    
+}
+.jogue:hover{
+    box-shadow: 3px 10px rgba(31, 31, 31, 0.72);
+    color: #fff;
+}
+
+
+select{
+    background-color: rgb(12, 11, 11);
+    color: #fff;
+    border: none;
+    width: 80px;
+    font-size: 18px;
+    font-family: "Bebas Neue" , sans-serif;
+    align-items: center;
+    padding: 25px 0px 20px 0px;
+    letter-spacing: 2px;
+    
+}
+
+
+
+
+
+
+/*    MAPAS    */
+
+.caixa-mapas-pag{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 250px;
+    margin-left: 65px;
+    margin-bottom: 100px;
+}
+
+.titulo-mapas-pag{
+   
+    font-size: 100px;
+    color: #20202d;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.t-map{
+    font-size: 50px;
+    color: #121119;
+}
+
+.p-map{
+    font-size: 16px;
+    font-family: 'Radio Canada Big';
+    max-width: 1100px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.map img{
+    border: rgb(239, 80, 80) 2px solid;
+}
+
+

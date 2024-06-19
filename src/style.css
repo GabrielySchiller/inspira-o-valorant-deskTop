@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bebas Neue" , sans-serif;
+    position: relative;
+    
+    
+}
+
+.cabecalho{
+    background-color: rgb(12, 11, 11);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: -20px ;
+    font-size: 18px;
+    width: 100%;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 0;
+    
+}
+
+.logos{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.botao-cabec:hover{ 
+    padding: 25px 15px 20px 15px;
+    border-bottom: 3px solid rgb(192, 48, 48);
+    transition: 0.2s;
+}
+
+
+
+.botao-cabec{
+    padding: 25px 15px 20px 15px;
+  
+}
+
+.btns-cabecalho {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+   
+}
+
+.btns-cabecalho a{
+    color: white;
+}
+
+.btns-c{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.lupa{
+    background-color: rgb(50, 45, 45);
+    transition: 0.5s;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+ 
+.globo{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+.jogue{
+    color: #000000;
+    background: rgb(244,89,60);
+    background: linear-gradient(90deg, rgba(244,89,60,1) 1%, rgba(233,50,73,1) 49%, rgba(243,117,73,1) 100%);
+    padding: 5px 25px;
+    border-radius: 15px;
+    letter-spacing: 2.5px;
+    
+}
+.jogue:hover{
+    box-shadow: 3px 10px rgba(31, 31, 31, 0.72);
+    color: #fff;
+}
+
+
+select{
+    background-color: rgb(12, 11, 11);
+    color: #fff;
+    border: none;
+    width: 80px;
+    font-size: 18px;
+    font-family: "Bebas Neue" , sans-serif;
+    align-items: center;
+    padding: 25px 0px 20px 0px;
+    letter-spacing: 2px;
+    
+}
+
+
+/* INÍCIO */
+
+#inicio{
+    
+    height: 705px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-image: url(https://64.media.tumblr.com/7af4713456cba909d27c219d9d9f47ae/e69091a604324ca3-37/s540x810/adc219892fc6108348456a644ed8159a060f5faf.gifv);
+}
+
+.paragrafo-inic{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 100px;
+    
+}
+
+
+.valorant-logo{
+    width: 700px;
+}
+
+.jogue-gratis{
+    font-size: 17px;
+    background-color: rgb(249, 78, 78);
+    color: #fff;
+    padding: 14px 65px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1.5px;
+
+}
+
+.jogue-gratis:hover{
+    background-color: rgb(26, 25, 25);
+    transition: 0.5s;
+
+}
+
+
+/* INFORMAÇÕES */
+
+
+#informacoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 200px;
+   gap: 40px;
+    
+    
+}
+
+.textos-infoma{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-left: 40px;
+    max-width: 700px;
+
+}
+
+.titulo-informa{
+    color: #0f1923;
+    font-size: 130px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 75px;
+    
+}
+
+.txt-informa{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+.subtitulo-informa{
+    color: #222121e2;
+    font-family: "Radio Canada Big", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.p-informa{
+    font-family: "Radio Canada Big", sans-serif;
+    color: #5d5d5de7;
+    max-width: 340px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+   
+
+.btn-conheca-jogo {
+
+    font-family: "Bebas Neue", sans-serif;
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -70px;
+
+    align-items: center;
+   
+   
+}
+
+.conheca-jogo {
+    background-color:  rgb(249, 78, 78);
+    padding: 16px 60px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    border-radius: 3px;
+
+}
+
+.conheca-jogo:hover{
+    background-color: #0f1923 ;
+}
+
+.gif-informa {
+    max-width: 600px;
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: -490px;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+}
+
+.detalhe{
+    margin-top: -100px;
+    letter-spacing: 40px;
+    font-size: 57px;
+    color: rgb(246, 81, 81);
+
+}
+
+.gif-infor img{
+    max-width: 400px;
+    
+}
+
+
+/* AGENTES */
+
+#agentes{
+    background-color: rgb(225, 78, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue";
+}
+
+.textos-agentes{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.img-agentes{
+    padding: 30px 50px 0px 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.titulo-agentes{
+    font-size: 120px;
+    margin-left: -90px;
+    margin-top: 60px;
+}
+
+.subtitulo-agentes{
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 50;
+    margin-left: -90px;
+   
+}
+
+.p-agentes{
+    max-width: 400px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: "Radio Canada Big", sans-serif;
+    margin-bottom: 30px;
+}
+
+.btn-linha{
+    border: solid #fff 2px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-agentes  {
+    color: #1a1919;
+    background-color: #fff ;
+    padding: 17px 70px;
+    font-size: 17px;
+}
+
+.btn-agentes:hover{
+    color: #fff;
+    background-color: #2f2e2e;
+    transition: 1s;
+}
+
+
+
+/* MAPAS */
+
+#mapas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt02c83424f7b41a97/6243813d8850ee0e8ea0ae56/maps-03ebbf2c074f13a65af1dba0c80f767e.png);
+}
+
+.titulo-mapas{
+    font-size: 130px;
+}
+
+.subtitulo-mapas{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 150;
+}
+
+.textos-mapas{
+    color: #0f1923;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: -900px;
+}
+
+.txt-mapas{
+    display: flex ;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.p-mapas{
+    font-size: 18px;
+    max-width: 300px;
+    font-family: "Radio Canada Big", sans-serif;
+    color: #3b3a3a;
+    letter-spacing: 1px;
+}
+
+
+.btn-mapas{
+    color: #fff;
+    background-color: rgb(176, 60, 60);
+    padding: 18px 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 2px;
+    width: 250px;
+}
+
+.btn-mapas:hover{
+    background-color: rgb(26, 25, 25);
+    transition: 1s;
+}
+
+.btn-linha-m{
+    border: solid #4c4a4aa6 2px;
+    padding: 15px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+/* RODAPÉ */
+
+.btns-rodap-1{
+    background-color:rgb(55, 54, 54) ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.primeiros{
+    background-color: rgb(55, 54, 54);
+    border: none;
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 6px;
+}
+
+.primeiros:hover{
+    background-color: #606060;
+    padding: 6px;
+    border-radius: 2.5px;
+}
+
+.caixa-rodap{
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.redes-rodap{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.redes-rodap a{
+    background-color: #424242; 
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.redes-rodap img{
+     
+    width: 30px;
+    padding: 5px;
+   
+}
+   
+
+
+.logos-rodap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copy{
+    color: #787878;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.classificacao-indicativa{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.classificacao-indicativa img{
+    background-color: #282828;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btns-rodap-2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.btns-rodap-2 button{
+    background-color: #111111;
+    border: none;
+    color: #fff;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 6px;
+}
+
+.btns-rodap-2 button:hover{
+    background-color: #5f5f5f;
+    padding: 6px;
+    border-radius: 2.5px;
+}
